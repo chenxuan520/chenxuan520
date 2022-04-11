@@ -12,7 +12,6 @@ an interesting person
 
 ![Vim](https://edyfox.codecarver.org/html/vim-logo-en.png)
 
-~~Burn emacs heretics! (Just kidding 🐶)~~
 
 ### contact me
 
