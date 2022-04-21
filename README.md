@@ -2,7 +2,9 @@
 
 ### **chenxuan**
 
-an interesting person
+- A sophomore who likes **C++**, Python, Go
+- A beginner who likes to study computers
+- An **interesting** soul
 
 ![dog](https://i.loli.net/2021/10/25/7pQUDsB12GE4tgx.png)
 
@@ -19,3 +21,7 @@ an interesting person
 - It would be better if you could leave a star
 
 ### Have fun
+
+---
+##### Nice to meet you, even better if you can leave a ⭐
+---
