@@ -30,9 +30,9 @@
 
 #### Other platforms
 
-##### [My leetcode](https://leetcode-cn.com/u/happy-6agarineai)
+##### [My leetcode](https://leetcode-cn.com/u/chenxuancode)
 
-![leetcode](https://stats.justsong.cn/api/leetcode?username=happy-6agarineai&cn=true)
+![leetcode](https://stats.justsong.cn/api/leetcode?username=chenxuancode&cn=true)
 
 ##### [My Zhihu](https://www.zhihu.com/people/4-86-2-14)
 
