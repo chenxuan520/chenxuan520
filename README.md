@@ -20,6 +20,8 @@
 
 ##### My favorite item is [cppweb](https://github.com/chenxuan520/cppweb), hope you will like it
 
+![cppweb](https://github.com/chenxuan520/cppweb/blob/master/logo.png)
+
 ![Metrics](https://metrics.lecoq.io/chenxuan520?template=classic&config.timezone=Asia%2FShanghai)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=chenxuan520&layout=compact&hide_border=true&langs_count=5)
