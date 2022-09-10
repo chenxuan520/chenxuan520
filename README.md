@@ -30,6 +30,10 @@
 
 ![Vim](https://edyfox.codecarver.org/html/vim-logo-en.png)
 
+##### if you want to config vim
+
+- you can use [this](https://github.com/chenxuan520/vim-fast) to do that
+
 #### Other platforms
 
 ##### [My leetcode](https://leetcode-cn.com/u/chenxuancode)
