@@ -44,11 +44,6 @@
 
 ![zhihu](https://stats.justsong.cn/api/zhihu?username=4-86-2-14)
 
-##### [My BiliBili](https://space.bilibili.com/322142755?spm_id_from=333.337.0.0)
-
-![bili](https://stats.justsong.cn/api/bilibili/?id=322142755)
-
-
 
 ### contact me
 
