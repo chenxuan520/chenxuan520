@@ -2,13 +2,15 @@
 
 ### **chenxuan**
 
-- A sophomore who likes **C++, Python, Go**
+- A college students who likes **C++, Go, Python**
 - A beginner who likes to study computers
 - An **interesting** soul
 
 ### my website
 
-#### [click here](https://chenxuanweb.top/)
+#### [main website](https://chenxuanweb.top/)
+
+#### [my another website](https://androidftp.top/)
 
 ### my picture
 
@@ -34,16 +36,19 @@
 
 - you can use [this](https://github.com/chenxuan520/vim-fast) to do that
 
-#### Other platforms
+#### other platforms
 
 ##### [My leetcode](https://leetcode-cn.com/u/chenxuancode)
 
-![leetcode](https://stats.justsong.cn/api/leetcode?username=chenxuancode&cn=true)
+![leetcode](https://stats.justsong.cn/api/leetcode?username=chenxuancode&cn=true&theme=dark)
 
 ##### [My Zhihu](https://www.zhihu.com/people/4-86-2-14)
 
-![zhihu](https://stats.justsong.cn/api/zhihu?username=4-86-2-14)
+![zhihu](https://stats.justsong.cn/api/zhihu?username=4-86-2-14&theme=dark)
 
+##### [My BiliBili](https://space.bilibili.com/322142755)
+
+![bilibili](https://stats.justsong.cn/api/bilibili/?id=322142755&theme=dark)
 
 ### contact me
 
