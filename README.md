@@ -10,7 +10,7 @@
 
 #### [main website](https://chenxuanweb.top/)
 
-#### [my another website](https://androidftp.top/)
+#### [my another website](http://www.androidftp.top/)
 
 ### my picture
 
