@@ -13,10 +13,6 @@
 
 ### [my blog](http://blog.chenxuanweb.top/)
 
-## my project
-
-![cpp](https://github-readme-stats.vercel.app/api?username=chenxuan520&&show_icons=true&theme=radical)
-
 #### My favorite item is [cppnet](https://github.com/chenxuan520/cppnet), hope you will like it
 
 ![cppweb](https://chenxuanweb.top/cppnet/cppnet.png)
