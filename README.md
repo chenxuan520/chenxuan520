@@ -13,6 +13,10 @@
 
 ### [my blog](http://blog.chenxuanweb.top/)
 
+## my project
+
+![Stats](https://stats.011203.xyz/?username=chenxuan520)
+
 #### My favorite item is [cppnet](https://github.com/chenxuan520/cppnet), hope you will like it
 
 ![cppweb](https://chenxuanweb.top/cppnet/cppnet.png)
