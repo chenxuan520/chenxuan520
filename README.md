@@ -19,9 +19,7 @@
 
 #### My favorite item is [cppnet](https://github.com/chenxuan520/cppnet), hope you will like it
 
-![cppweb](https://chenxuanweb.top/cppnet/cppnet.png)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=chenxuan520&layout=compact&hide_border=true&langs_count=5)
+<img src="https://chenxuanweb.top/cppnet/cppnet.png" width = "300" height = "300" alt="cppnet" align=center />
 
 ### my favorite editor
 
@@ -30,6 +28,12 @@
 #### if you want to config vim
 
 - you can use [this](https://github.com/chenxuan520/vim-fast) to do that
+
+### others platform
+
+#### leetcode
+
+![leetcode](https://stats.justsong.cn/api/leetcode?username=chenxuancode&cn=true&theme=dark)
 
 ## contact me
 
