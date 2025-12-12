@@ -5,7 +5,7 @@
 - A beginner who likes to study computers
 - An **interesting** soul
 
-<img src="https://www.chenxuanweb.top/img/icon/self2.png" width = "500" height = "500" alt="self" align=center />
+<img src="https://sslcdn.androidftp.top/test/2025121212195207pasteboard.paste" width = "500" height = "500" alt="self" align=center />
 
 ## my website
 
@@ -25,7 +25,7 @@
 
 ### my favorite editor
 
-![Vim](https://edyfox.codecarver.org/html/vim-logo-en.png)
+<img src="https://edyfox.codecarver.org/html/vim-logo-en.png" width = "300" height = "300" alt="vim" align=center />
 
 #### if you want to config vim
 
