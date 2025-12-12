@@ -1,11 +1,22 @@
-# ![](https://readme-typing-svg.demolab.com/?lines=Hello,Welcome!;I%27m+ChenXuan;Huster,Dianer,Bytedancer)
 
-## **chenxuan**
+# <img src="https://readme-typing-svg.demolab.com/?lines=Hello,Welcome!;I%27m+ChenXuan;Huster,Dianer,Bytedancer" width="700px">
+
+# Hi!, I'm **chenxuan** <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">
 
 - A beginner who likes to study computers
-- An **interesting** soul
+- An interesting soul
 
 <img src="https://sslcdn.androidftp.top/test/2025121212195207pasteboard.paste" width = "500" height = "500" alt="self" align=center />
+
+## my project
+
+![Stats](https://stats.011203.xyz/?username=chenxuan520)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://chenxuan520.github.io/chenxuan520/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://chenxuan520.github.io/chenxuan520/snake.svg">
+  <img alt="github contribution grid snake animation" src="https://chenxuan520.github.io/chenxuan520/snake.svg">
+</picture>
 
 ## my website
 
@@ -13,9 +24,6 @@
 
 ### [my blog](http://blog.chenxuanweb.top/)
 
-## my project
-
-![Stats](https://stats.011203.xyz/?username=chenxuan520)
 
 #### My favorite item is [cppnet](https://github.com/chenxuan520/cppnet), hope you will like it
 
@@ -40,11 +48,6 @@
 - If you have any questions, please contact me at chenxuanweb@qq.com
 - It would be better if you could leave a star
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://chenxuan520.github.io/chenxuan520/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://chenxuan520.github.io/chenxuan520/snake.svg">
-  <img alt="github contribution grid snake animation" src="https://chenxuan520.github.io/chenxuan520/snake.svg">
-</picture>
 
 ## Have fun
 
