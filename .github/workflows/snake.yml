@@ -4,46 +4,43 @@ on:
   # 每天国际标准时间 0 点 (北京时间早上 8 点) 自动运行
   schedule:
     - cron: "0 0 * * *" 
-  # 允许你手动点击按钮触发 (方便测试)
+  # 允许手动触发
   workflow_dispatch:
 
-# 赋予 Action 修改 Pages 的权限
+# 权限配置：必须赋予写 Pages 的权限
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 避免并发部署冲突
+# 并发控制：避免多次运行导致冲突
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  # 任务 1: 生成图片
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1. 检出代码 (使用最新 v4)
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
+      # 2. 生成贪吃蛇 SVG (使用最新 v3)
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          # 你的用户名
           github_user_name: chenxuan520
-          # 输出路径 (存放在临时的 dist 文件夹里)
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      # 关键步骤: 把 dist 文件夹打包上传给 GitHub Pages
-      # 这一步不会产生 Git Commit，只是上传临时产物
+      # 3. 上传构建产物 (使用最新 v3，修复了 deprecated API 报错)
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
-  # 任务 2: 部署到服务器
   deploy:
     environment:
       name: github-pages
@@ -51,6 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      # 4. 部署到 GitHub Pages (使用最新 v4)
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
