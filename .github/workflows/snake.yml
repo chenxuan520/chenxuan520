@@ -1,0 +1,56 @@
+name: Generate Snake to Pages
+
+on:
+  # 每天国际标准时间 0 点 (北京时间早上 8 点) 自动运行
+  schedule:
+    - cron: "0 0 * * *" 
+  # 允许你手动点击按钮触发 (方便测试)
+  workflow_dispatch:
+
+# 赋予 Action 修改 Pages 的权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 避免并发部署冲突
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # 任务 1: 生成图片
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          # 你的用户名
+          github_user_name: chenxuan520
+          # 输出路径 (存放在临时的 dist 文件夹里)
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      # 关键步骤: 把 dist 文件夹打包上传给 GitHub Pages
+      # 这一步不会产生 Git Commit，只是上传临时产物
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: dist
+
+  # 任务 2: 部署到服务器
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
