@@ -36,6 +36,12 @@
 - If you have any questions, please contact me at chenxuanweb@qq.com
 - It would be better if you could leave a star
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://chenxuan520.github.io/chenxuan520/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://chenxuan520.github.io/chenxuan520/snake.svg">
+  <img alt="github contribution grid snake animation" src="https://chenxuan520.github.io/chenxuan520/snake.svg">
+</picture>
+
 ## Have fun
 
 ---
